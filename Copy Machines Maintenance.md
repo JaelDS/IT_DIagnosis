@@ -55,7 +55,7 @@ year: 2011
 
 ## 🗺️ Diagram 1 — What the Machine Looks Like From the Outside
 
-![External Component Overview](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/images/Copy_Machine_Scheme.png)
+![External Component Overview|](https://raw.githubusercontent.com/JaelDS/IT_DIagnosis/main/img/Copy_Machine_Scheme.png)
 
 ### 🔍 Diagram Review & Accuracy Notes
 
@@ -90,7 +90,7 @@ The top section is all about reading documents you want to copy or scan.
 
 ## ⚙️ Diagram 2 — What's Inside the Machine (The Engine)
 
-![Internal Engine Cross-Section](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/images/Copy_Machine_Internal_Scheme.png)
+![External Component Overview|](https://raw.githubusercontent.com/JaelDS/IT_DIagnosis/main/img/Copy_Machine_Internal_Scheme.png)
 
 ### 🔍 Diagram Review & Accuracy Notes
 
@@ -131,7 +131,7 @@ The paper travels up and out to the output tray.
 
 ## 📄 Diagram 3 — How Paper Travels Through the Machine
 
-![Paper Feed & Transport Path](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/images/Paper_Feed_Transport_Path.png)
+![External Component Overview|](https://raw.githubusercontent.com/JaelDS/IT_DIagnosis/main/img/Paper_Feed_Transport_Path.png)
 
 ### 🔍 Diagram Review & Accuracy Notes
 
@@ -170,7 +170,7 @@ All rollers in this machine are rated for approximately **300,000 pages** before
 
 ## 🔬 Diagram 4 — The Scanner & ADF in Detail (Your Main Issue)
 
-![Scanner & ADF Assembly — Maintenance Focus Areas](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/images/Scanner_ADF.png)
+![External Component Overview|](https://raw.githubusercontent.com/JaelDS/IT_DIagnosis/main/img/Scanner_ADF.png)
 
 ### 🔍 Diagram Review & Accuracy Notes
 
@@ -213,7 +213,7 @@ The rod runs horizontally across the full width of the machine. Your next step i
 
 ## 🧭 Diagram 5 — How to Navigate the Service Menu
 
-![Service Mode Navigation Guide](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/images/Maintenance_Diagram.png)
+![External Component Overview|](https://raw.githubusercontent.com/JaelDS/IT_DIagnosis/main/img/Maintenance_Diagram.png)
 
 ### 🔍 Diagram Review & Accuracy Notes
 
