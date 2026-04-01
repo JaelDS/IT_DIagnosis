@@ -1,0 +1,100 @@
+Create a professional, polished diagnostic flowchart illustration in the style of high-quality iStock/stock-art infographics. The chart should look like something a technical publisher or IT magazine would use — NOT a plain developer tool output.
+
+=== AESTHETIC REQUIREMENTS ===
+
+Style: Modern flat design with subtle depth. Think Lucidchart / Figma / Adobe XD quality.
+
+Shapes:
+- Start/End nodes: Stadium/pill shape, dark navy or charcoal fill, white bold text
+- Decision diamonds: Rounded corners, medium blue fill (#2471A3), white text
+- Action/process boxes: Rounded rectangles with soft drop shadows, light grey fill (#ECF0F1), dark text
+- Terminal outcome nodes: Color-coded pills — red for hardware/network faults, amber for driver/software/spooler issues, green for resolved, dark slate for OS-level repair
+
+Colors (suggested palette):
+- Background: #F4F6F8 (very light grey) or white
+- Network / critical fault: #C0392B (deep red), white text
+- Driver / spooler / software: #D4AC0D or #E67E22 (amber), white text
+- Resolved / phone setup: #1E8449 (dark green), white text
+- OS repair / DISM path: #5D6D7E (slate), white text
+- Decision nodes: #2471A3 (blue), white text
+- Action/process nodes: #ECF0F1 fill, #2C3E50 text, subtle shadow
+- Start node: #2C3E50 (dark navy), white text
+- Arrows: #2C3E50 dark grey, with descriptive edge labels in small 9pt sans-serif
+
+Typography:
+- Font: Inter, Roboto, or similar clean sans-serif
+- Node labels: Bold, 11–13pt
+- Edge labels: Regular, 9–10pt, matching or slightly lighter than arrow color
+
+Layout: Top-down flowchart. Generous spacing between nodes. Symmetric branching where possible. Use subtle background panel grouping or swimlane shading to visually separate the main diagnostic spine from terminal branches.
+
+Arrow style: Clean orthogonal routing, no diagonal lines, rounded bends, filled arrowheads.
+
+Add a small legend in a corner box:
+  🔴 Network / hardware fault
+  🟡 Driver / spooler / software
+  ⚫ OS repair / DISM
+  ✅ Resolved
+
+=== DIAGRAM CONTENT ===
+
+Title: Printer — Not Printing
+Subtitle: Diagnostic Fault Tree (Windows · Brother · Canon)
+
+--- NODES AND FLOW ---
+
+START: [🖨️ Printer not printing]
+
+→ Action box: PowerShell: Get-Printer — Is the printer listed?
+
+  Branch A — "Not listed / wrong port"
+  → Terminal (amber): 🟡 Driver issue → Section D
+
+  Branch B — "Listed, not printing"
+  → Action box: CMD: arp -a — Find printer IP on network
+
+  → Decision diamond: Open http://[printer-ip] — Printer web interface reachable?
+
+      "Error shown"
+      → Terminal (red): 🔴 Follow printer error → Section B
+
+      "Can't reach IP"
+      → Terminal (red): 🔴 Network issue → Section E
+
+      "No error / OK"
+      → Decision diamond: Check print queue — Devices & Printers
+
+          "Stuck / blank queue"
+          → Action box: 🟡 Spooler issue → Section C
+          → feeds into: Driver issue → Section D (see below)
+
+          "Shows offline"
+          → Terminal (amber): 🟡 Right-click → See what's printing → Printer → Uncheck Use Printer Offline
+
+          "Queue clear, still won't print"
+          → Action box: 🟡 Driver issue → Section D  ← (shared node — both "Not listed" and "queue clear" paths arrive here)
+
+  → From Driver issue node:
+  → Decision diamond: sfc /scannow — Corrupted files found?
+
+      "Yes / cannot repair"
+      → Terminal (slate): ⚫ Disk cleanup + DISM → Section F
+
+      "No issues"
+      → Terminal (green): ✅ Phone setup → Section E
+
+=== SHARED NODE NOTE ===
+
+"Driver issue → Section D" is a shared destination reached from three paths:
+  1. Get-Printer: not listed / wrong port
+  2. Print queue: clear but not printing
+  3. Spooler reset completed (Section C flows into it)
+
+Visually, draw this as a single amber rounded-rectangle node with three incoming arrows, positioned in the center-lower part of the diagram. All three paths converge here before the final SFC check.
+
+=== ADDITIONAL NOTES ===
+
+- The two red terminal nodes (Section B and Section E) should visually stand out as dead-ends / escalation points — slightly larger pill shape or a subtle red glow/border.
+- The green "Phone setup → Section E" terminal is the happy-path end — make it the most visually prominent terminal node.
+- Keep the main diagnostic spine (Start → Get-Printer → arp -a → Web interface → Queue check → Driver → SFC) as a clear vertical column in the center. Branch outcomes radiate outward left and right.
+- If the tool supports icons, a small printer icon on the start node and a phone icon on the green terminal would reinforce the context.
