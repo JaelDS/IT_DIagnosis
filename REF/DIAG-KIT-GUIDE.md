@@ -77,97 +77,11 @@
 
 ---
 
-## 🗺️ Drive Structure
-
-
-
----
-
 ## 🔁 Diagnosis Workflow
 
-```mermaid
-	%%{init: {'theme': 'base', 'flowchart': {'curve': 'step'}, 'themeVariables': {'primaryColor': '#dbeafe', 'primaryBorderColor': '#3b82f6', 'primaryTextColor': '#1e3a5f', 'background': '#ffffff', 'edgeLabelBackground': '#ffffff'}}}%%
-	graph LR
-	    START((🔌 Plug in<br/>DIAG-KIT))
-	    Q{What is<br/>the complaint?}
-	    DOC((📝 Document<br/>findings))
-	
-	    START --> Q
-	
-	    Q -- Slow / Overheating --> F01[📁 01 · System Health]
-	    Q -- Network issues --> F02[📁 02 · Network]
-	    Q -- Disk problems --> F03[📁 03 · Storage]
-	    Q -- OS behaving oddly --> F04[📁 04 · Integrity]
-	    Q -- Malware symptoms --> F05[📁 05 · Malware]
-	    Q -- Won't boot --> F07[📁 07 · Boot Tools]
-	
-	    F01 --> T01a(HWiNFO64<br/>temps & throttling)
-	    F01 --> T01b(CPU-Z<br/>RAM speed check)
-	
-	    F02 --> T02a(Angry IP<br/>map the LAN)
-	    F02 --> T02b(CurrPorts<br/>local connections)
-	    F02 --> T02c(Wireshark<br/>packet capture)
-	    F02 --> T02d(WifiInfoView<br/>signal strength)
-	
-	    F03 --> T03a(CrystalDiskInfo<br/>SMART health)
-	    F03 --> T03b(WinDirStat<br/>space hogs)
-	
-	    F04 --> T04a(Autoruns<br/>startup audit)
-	    F04 --> T04b(Process Explorer<br/>rogue processes)
-	    F04 --> T04c(ProcMon<br/>file & reg events)
-	
-	    F05 --> T05a(AdwCleaner<br/>adware & PUPs)
-	    F05 --> T05b(ESET Scanner<br/>deep AV scan)
-	
-	    F07 --> T07a(Medicat PE<br/>recovery shell)
-	    F07 --> T07b(MemTest86<br/>RAM test)
-	
-	    %% Primary convergence — solid
-	    F01 --> DOC
-	    F02 --> DOC
-	    F03 --> DOC
-	    F04 --> DOC
-	    F05 --> DOC
-	    F07 --> DOC
-	
-	    %% Escalation paths — dotted
-	    T02b -. suspicious traffic .-> F05
-	    T04b -. unsigned / injected .-> F05
-	    T03a -. drive critical .-> F07
-	    T02c -. deep trace .-> T04c
-	
-	    classDef endpoint fill:#fef9c3,stroke:#ca8a04,color:#713f12,font-weight:bold
-	    classDef decision fill:#fef3c7,stroke:#d97706,color:#78350f,font-weight:bold
-	    classDef sys fill:#dbeafe,stroke:#3b82f6,color:#1e3a5f,font-weight:bold
-	    classDef net fill:#d1fae5,stroke:#10b981,color:#064e3b,font-weight:bold
-	    classDef stor fill:#ffedd5,stroke:#f97316,color:#7c2d12,font-weight:bold
-	    classDef integ fill:#ede9fe,stroke:#8b5cf6,color:#4c1d95,font-weight:bold
-	    classDef mal fill:#fee2e2,stroke:#ef4444,color:#7f1d1d,font-weight:bold
-	    classDef boot fill:#e0e7ff,stroke:#6366f1,color:#312e81,font-weight:bold
-	    classDef tsys fill:#eff6ff,stroke:#93c5fd,color:#1e3a5f
-	    classDef tnet fill:#ecfdf5,stroke:#6ee7b7,color:#064e3b
-	    classDef tstor fill:#fff7ed,stroke:#fdba74,color:#7c2d12
-	    classDef tinteg fill:#f5f3ff,stroke:#c4b5fd,color:#4c1d95
-	    classDef tmal fill:#fef2f2,stroke:#fca5a5,color:#7f1d1d
-	    classDef tboot fill:#eef2ff,stroke:#a5b4fc,color:#312e81
-	
-	    class START,DOC endpoint
-	    class Q decision
-	    class F01 sys
-	    class F02 net
-	    class F03 stor
-	    class F04 integ
-	    class F05 mal
-	    class F07 boot
-	    class T01a,T01b tsys
-	    class T02a,T02b,T02c tnet
-	    class T03a,T03b tstor
-	    class T04a,T04b,T04c tinteg
-	    class T05a,T05b tmal
-	    class T07a,T07b tboot
-```
 
----
+![External Component Overview|](https://raw.githubusercontent.com/JaelDS/IT_DIagnosis/main/img/Diag_Kit.png)
+
 
 ---
 
