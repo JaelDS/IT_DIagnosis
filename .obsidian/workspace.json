@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REF/DIAG-KIT-GUIDE.md",
-                "mode": "preview",
+                "file": "Index.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DIAG-KIT-GUIDE"
+              "title": "Index"
             }
           }
         ]
@@ -187,11 +187,13 @@
   },
   "active": "69d64c9f3445704e",
   "lastOpenFiles": [
-    "img/Diag_Kit_Flow.png",
-    "REF/DIAG-KIT-GUIDE.md",
+    "img/Index_Diag.png",
     "REF/Copy Machines Maintenance.md",
-    "img/Diag_Kit.png",
+    "REF/Network_Diagnosing_Handbook.md",
     "Index.md",
+    "REF/DIAG-KIT-GUIDE.md",
+    "img/Diag_Kit_Flow.png",
+    "img/Diag_Kit.png",
     "REF/DIAG-KIT-GUIDE.md.tmp.189678.1775185870136",
     "REF/DIAG-KIT-GUIDE.md.tmp.189678.1775185533869",
     "REF/DIAG-KIT-GUIDE.md.tmp.189678.1775185506528",
@@ -199,7 +201,6 @@
     "INC/Email Support.md",
     "DIAG/DIAG dell post boot freeze.md",
     "Index.md.tmp.189678.1775185129190",
-    "REF/Network_Diagnosing_Handbook.md",
     "INC/Windows Incident Management.md",
     "DIAG/DIAG nobara sleep freeze bluetooth mx ergo.md",
     "DIAG/DIAG brother printer not printing.md",

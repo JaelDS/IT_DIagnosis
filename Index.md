@@ -14,33 +14,7 @@
 
 ## ⚡ Quick Triage
 
-```mermaid
-flowchart TD
-    classDef start fill:#1a2332,color:#58a6ff,stroke:#58a6ff,stroke-width:2px
-    classDef leaf  fill:#161b22,color:#e6edf3,stroke:#30363d,stroke-width:1.5px
-    classDef diag  fill:#1c2a1e,color:#3fb950,stroke:#238636,stroke-width:2px
-    classDef pin   fill:#1e1a2a,color:#8b949e,stroke:#444,stroke-width:1px,stroke-dasharray:4
-
-    START([What is the problem?]):::start
-
-    START --> A{System freezes\nor won't start}:::leaf
-    START --> B{Printer or\nscanner issue}:::leaf
-    START --> C{No internet\nor slow network}:::leaf
-    START --> D{Email or\nbrowser problem}:::leaf
-    START --> E{Suspicious activity\nor malware}:::leaf
-
-    A --> A1([DIAG — Post-Boot Freeze\nWindows · Dell]):::diag
-    A --> A2([DIAG — Sleep & Bluetooth Freeze\nNobara Linux]):::diag
-
-    B --> B1([DIAG — Printer Not Printing\nBrother · Canon]):::diag
-    B --> B2([REF — Copy Machine Maintenance\nKonica Minolta C25]):::diag
-
-    C --> C1([REF — Network Diagnosing Handbook]):::diag
-
-    D --> D1([INC — Email & Browser Security]):::diag
-
-    E --> E1([DIAG — Malware Handbook\n📌 Coming soon]):::pin
-```
+![External Component Overview|](https://raw.githubusercontent.com/JaelDS/IT_DIagnosis/main/img/Index_Diag.png)
 
 ---
 

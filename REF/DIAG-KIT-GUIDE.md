@@ -80,7 +80,7 @@
 ## 🔁 Diagnosis Workflow
 
 
-![External Component Overview|](https://raw.githubusercontent.com/JaelDS/IT_DIagnosis/main/img/Diag_Kit.png)
+![External Component Overview|](https://raw.githubusercontent.com/JaelDS/IT_DIagnosis/main/img/Diag_Kit_Flow.png)
 
 
 ---
