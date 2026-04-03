@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "185fc5d794b17458",
+        "id": "741194a2bc6b8818",
         "type": "tabs",
         "children": [
           {
-            "id": "dba6e0c3f731e509",
+            "id": "69d64c9f3445704e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "REF/DIAG-KIT-GUIDE.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -185,10 +185,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dba6e0c3f731e509",
+  "active": "69d64c9f3445704e",
   "lastOpenFiles": [
-    "REF/Copy Machines Maintenance.md",
+    "img/Diag_Kit_Flow.png",
     "REF/DIAG-KIT-GUIDE.md",
+    "REF/Copy Machines Maintenance.md",
     "img/Diag_Kit.png",
     "Index.md",
     "REF/DIAG-KIT-GUIDE.md.tmp.189678.1775185870136",
