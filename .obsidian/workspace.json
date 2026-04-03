@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "7f0cce0910677915",
+    "type": "split",
+    "children": [
+      {
+        "id": "185fc5d794b17458",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dba6e0c3f731e509",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "REF/DIAG-KIT-GUIDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DIAG-KIT-GUIDE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "49ff3afe6a4241b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "8609fb1f3f5162eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae5d3f4370e8c096",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ae5a9d4d3e196d76",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0e6ab0e36ae9588a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5d99acd1708364d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "712e2ecd73756fee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b44f4f98297746f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "REF/DIAG-KIT-GUIDE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DIAG-KIT-GUIDE"
+            }
+          },
+          {
+            "id": "fce5816ffd4b4183",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "REF/DIAG-KIT-GUIDE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DIAG-KIT-GUIDE"
+            }
+          },
+          {
+            "id": "5020940931a25051",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "23c0393a734d2d70",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b2e23627e48518f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "REF/DIAG-KIT-GUIDE.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DIAG-KIT-GUIDE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "dba6e0c3f731e509",
+  "lastOpenFiles": [
+    "REF/Copy Machines Maintenance.md",
+    "REF/DIAG-KIT-GUIDE.md",
+    "Index.md",
+    "REF/DIAG-KIT-GUIDE.md.tmp.189678.1775185870136",
+    "REF/DIAG-KIT-GUIDE.md.tmp.189678.1775185533869",
+    "REF/DIAG-KIT-GUIDE.md.tmp.189678.1775185506528",
+    "REF/DIAG-KIT-GUIDE.md.tmp.189678.1775185494813",
+    "INC/Email Support.md",
+    "DIAG/DIAG dell post boot freeze.md",
+    "Index.md.tmp.189678.1775185129190",
+    "REF/Network_Diagnosing_Handbook.md",
+    "INC/Windows Incident Management.md",
+    "DIAG/DIAG nobara sleep freeze bluetooth mx ergo.md",
+    "DIAG/DIAG brother printer not printing.md",
+    "REF",
+    "INC",
+    "DIAG"
+  ]
+}
